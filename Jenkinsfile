@@ -12,7 +12,7 @@ pipeline {
         stage('Build Frontend') {
             steps {
                 echo '🎨 Building frontend...'
-                bat 'type frontend\\index.html'
+                bat 'type forentend\\index.html'
             }
         }
 
